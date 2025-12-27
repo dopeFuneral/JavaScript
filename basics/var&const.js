@@ -1,0 +1,11 @@
+const accountid = 123456;
+let balance = 1000;
+let accountemail = "raktim@gmail.com";
+console.log("Account ID:", accountid);
+console.log("Balance:", balance);
+console.log("Account Email:", accountemail);
+console.table({ accountid, balance, accountemail });
+balance += 500;
+console.log("Updated Balance:", balance);
+let accountstate;
+console.log("Account State:", accountstate);
